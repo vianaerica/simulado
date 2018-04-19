@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.simulado.iml" filepath="$PROJECT_DIR$/.idea/modules/com.simulado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.simulado_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.simulado_main.iml" group="com.simulado" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.simulado_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.simulado_test.iml" group="com.simulado" />
+    </modules>
+  </component>
+</project>
