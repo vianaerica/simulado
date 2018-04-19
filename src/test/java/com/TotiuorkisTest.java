@@ -18,5 +18,13 @@ public class TotiuorkisTest {
         assertThat(totiuorkis, is(not(nullValue())));
     }
 
+    @Test (expected = Exception.class)
+    public void deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido() throws Exception {
+        int numeroFuncionarios = 2;
+        double margemLucroAnual = 100;
 
+        Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
+
+        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual);
+    }
 }
