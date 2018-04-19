@@ -27,4 +27,17 @@ public class TotiuorkisTest {
 
         totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual);
     }
+
+    @Test
+    public void deveRetornarParticipacaoLucrosCalculada() throws Exception {
+        int numeroFuncionarios = 10;
+        double margemLucroAnual = 200500;
+        //int performanceAnual = 1;
+
+        //Trainee funcionario = new Trainee(performanceAnual);
+
+        Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
+
+        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual);
+    }
 }
