@@ -9,4 +9,16 @@ public class Funcionario {
         this.cargo = cargo;
         this.performanceAnual = performanceAnual;
     }
+
+    public int getPerformanceAnual() {
+        return performanceAnual;
+    }
+
+    public int multiplicadorPorCargo(String cargo) {
+        return 0;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
 }

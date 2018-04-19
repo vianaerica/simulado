@@ -25,19 +25,22 @@ public class TotiuorkisTest {
 
         Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
 
-        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual);
+        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual, null);
     }
 
     @Test
     public void deveRetornarParticipacaoLucrosCalculada() throws Exception {
         int numeroFuncionarios = 10;
-        double margemLucroAnual = 200500;
-        //int performanceAnual = 1;
+        double margemLucroAnual = 200500.0;
+        int performanceAnual = 1;
+        double participacaoLucro;
 
-        //Trainee funcionario = new Trainee(performanceAnual);
+        Funcionario funcionario = new Funcionario("Trainee", performanceAnual);
 
         Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
 
-        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual);
+        participacaoLucro = totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual, funcionario);
+
+        assertThat(participacaoLucro, is(8020.0));
     }
 }

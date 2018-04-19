@@ -18,4 +18,16 @@ public class FuncionarioTest {
         assertThat(funcionario, is(not(nullValue())));
     }
 
+    @Test
+    public void deveRetornarOMultiplicadorDoCargo(){
+        String cargo = "Trainee";
+        int performanceAnual = 3;
+        int multiplicador;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+
+        assertThat(multiplicador, is(1));
+    }
+
 }
