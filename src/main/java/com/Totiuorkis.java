@@ -11,10 +11,9 @@ public class Totiuorkis {
     }
 
     public double calculaParticipacaoLucros(int numeroFuncionarios, double margemLucroAnual, Funcionario funcionario) throws Exception{
-        double totalFuncionarios, participacaoTotal;
-        totalFuncionarios = numeroFuncionarios * 10000.0;
+        double participacaoTotal;
 
-        if(margemLucroAnual < totalFuncionarios){
+        if(margemLucroAnual < (numeroFuncionarios * 10000.0)){
             throw new Exception("Não haverá participação nos lucros.");
         }
         else{
