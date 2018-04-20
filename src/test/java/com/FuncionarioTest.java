@@ -19,15 +19,15 @@ public class FuncionarioTest {
     }
 
     @Test
-    public void deveRetornarOMultiplicadorDoCargo(){
-        String cargo = "Trainee";
+    public void deveRetornarOMultiplicadorDoCargo() throws Exception {
+        String cargo = "Gerente";
         int performanceAnual = 3;
         int multiplicador;
 
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
         multiplicador = funcionario.multiplicadorPorCargo(cargo);
 
-        assertThat(multiplicador, is(1));
+        assertThat(multiplicador, is(3));
     }
 
 }
