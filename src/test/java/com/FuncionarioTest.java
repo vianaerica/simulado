@@ -19,7 +19,7 @@ public class FuncionarioTest {
     }
 
     @Test
-    public void deveRetornarOMultiplicadorDoCargo() throws Exception {
+    public void deveRetornarOMultiplicadorDoGerente() throws Exception {
         String cargo = "Gerente";
         int performanceAnual = 3;
         int multiplicador;
@@ -30,4 +30,36 @@ public class FuncionarioTest {
         assertThat(multiplicador, is(3));
     }
 
+    @Test
+    public void deveRetornarOMultiplicadorDoAnalista() throws Exception {
+        String cargo = "Analista";
+        int performanceAnual = 3;
+        int multiplicador;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+
+        assertThat(multiplicador, is(2));
+    }
+
+    @Test
+    public void deveRetornarOMultiplicadorDoTrainee() throws Exception {
+        String cargo = "Trainee";
+        int performanceAnual = 3;
+        int multiplicador;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+
+        assertThat(multiplicador, is(1));
+    }
+
+    @Test (expected = Exception.class)
+    public void deveRetornarErroCasoSejaInformadoCargoInvalido() throws Exception {
+        String cargo = "a";
+        int performanceAnual = 3;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        funcionario.multiplicadorPorCargo(cargo);
+    }
 }

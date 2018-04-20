@@ -20,6 +20,12 @@
     <SUITE FILE_PATH="coverage/com_simulado$TotiuorkisTest_deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido.coverage" NAME="TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido Coverage Results" MODIFIED="1524180571895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/com_simulado$FuncionarioTest_deveRetornarOMultiplicadorDoTrainee.coverage" NAME="FuncionarioTest.deveRetornarOMultiplicadorDoTrainee Coverage Results" MODIFIED="1524182738190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/com_simulado$FuncionarioTest.coverage" NAME="FuncionarioTest Coverage Results" MODIFIED="1524184130344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -31,8 +37,8 @@
       <file leaf-file-name="TotiuorkisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="41" column="107" lean-forward="false" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
               <folding>
                 <element signature="method#deveRetornarVerdadeiroQuandoIniciarTotiuorkis#0;class#TotiuorkisTest#0" expanded="false" />
                 <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
@@ -44,8 +50,8 @@
       <file leaf-file-name="Totiuorkis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="20" column="103" lean-forward="false" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+            <state relative-caret-position="101">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,13 +60,13 @@
       <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,10 +75,13 @@
       <file leaf-file-name="FuncionarioTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
+                <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
+                <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
+                <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -517,7 +526,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoCargo">
+  <component name="RunManager" selected="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -539,7 +548,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoCargo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -551,8 +560,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
       <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
-      <option name="METHOD_NAME" value="deveRetornarOMultiplicadorDoCargo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -564,7 +573,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FuncionarioTest.deveRetornarVerdadeiroQuandoIniciarFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoIncorreto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -576,7 +585,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
       <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
-      <option name="METHOD_NAME" value="deveRetornarVerdadeiroQuandoIniciarFuncionario" />
+      <option name="METHOD_NAME" value="deveRetornarErroCasoSejaInformadoCargoIncorreto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -589,7 +598,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GerenteTest.deveRetornarVerdadeiroQuandoIniciarGerente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -600,8 +609,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.GerenteTest" />
-      <option name="METHOD_NAME" value="deveRetornarVerdadeiroQuandoIniciarGerente" />
+      <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
+      <option name="METHOD_NAME" value="deveRetornarErroCasoSejaInformadoCargoInvalido" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -614,7 +623,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoAnalista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -625,8 +634,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TotiuorkisTest" />
-      <option name="METHOD_NAME" value="deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
+      <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
+      <option name="METHOD_NAME" value="deveRetornarOMultiplicadorDoAnalista" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -639,7 +648,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -650,8 +659,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TotiuorkisTest" />
-      <option name="METHOD_NAME" value="deveRetornarParticipacaoLucrosCalculada" />
+      <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
+      <option name="METHOD_NAME" value="deveRetornarOMultiplicadorDoTrainee" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -725,19 +734,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GerenteTest.deveRetornarVerdadeiroQuandoIniciarGerente" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarVerdadeiroQuandoIniciarFuncionario" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoCargo" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoAnalista" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoIncorreto" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoCargo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarVerdadeiroQuandoIniciarFuncionario" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GerenteTest.deveRetornarVerdadeiroQuandoIniciarGerente" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoIncorreto" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarOMultiplicadorDoAnalista" />
       </list>
     </recent_temporary>
   </component>
@@ -762,44 +771,44 @@
       <updated>1524177092103</updated>
       <workItem from="1524177127839" duration="268000" />
       <workItem from="1524177526914" duration="47000" />
-      <workItem from="1524177612183" duration="4609000" />
+      <workItem from="1524177612183" duration="6170000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoCargo - 2018.04.19 at 20h 55m 43s.xml">
-      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoCargo" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.04.19 at 21h 01m 41s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoCargo - 2018.04.19 at 20h 58m 59s.xml">
-      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoCargo" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.04.19 at 21h 01m 49s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioTest_deveRetornarVerdadeiroQuandoIniciarFuncionario - 2018.04.19 at 20h 38m 10s.xml">
-      <configuration name="FuncionarioTest.deveRetornarVerdadeiroQuandoIniciarFuncionario" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.04.19 at 21h 06m 49s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioTest_deveRetornarVerdadeiroQuandoIniciarFuncionario - 2018.04.19 at 20h 38m 59s.xml">
-      <configuration name="FuncionarioTest.deveRetornarVerdadeiroQuandoIniciarFuncionario" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.04.19 at 21h 28m 21s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido - 2018.04.19 at 20h 29m 33s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.04.19 at 21h 28m 53s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido - 2018.04.19 at 20h 46m 24s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarErroCasoSejaInformadoCargoIncorreto - 2018.04.19 at 21h 31m 18s.xml">
+      <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoIncorreto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarParticipacaoLucrosCalculada - 2018.04.19 at 20h 46m 32s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoAnalista - 2018.04.19 at 21h 04m 38s.xml">
+      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoAnalista" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarParticipacaoLucrosCalculada - 2018.04.19 at 20h 52m 28s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoTrainee - 2018.04.19 at 21h 05m 06s.xml">
+      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarParticipacaoLucrosCalculada - 2018.04.19 at 20h 52m 50s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoTrainee - 2018.04.19 at 21h 05m 19s.xml">
+      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TotiuorkisTest_deveRetornarParticipacaoLucrosCalculada - 2018.04.19 at 20h 53m 03s.xml">
-      <configuration name="TotiuorkisTest.deveRetornarParticipacaoLucrosCalculada" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarOMultiplicadorDoTrainee - 2018.04.19 at 21h 05m 39s.xml">
+      <configuration name="FuncionarioTest.deveRetornarOMultiplicadorDoTrainee" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4924000" />
+    <option name="totallyTimeSpent" value="6485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -813,10 +822,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22280967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -845,7 +854,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -900,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="41" column="107" lean-forward="false" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
           <folding>
             <element signature="method#deveRetornarVerdadeiroQuandoIniciarTotiuorkis#0;class#TotiuorkisTest#0" expanded="false" />
             <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
@@ -911,31 +920,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="20" column="103" lean-forward="false" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+        <state relative-caret-position="101">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="442">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="55" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
           </folding>
         </state>
       </provider>

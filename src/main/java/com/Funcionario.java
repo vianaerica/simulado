@@ -4,15 +4,10 @@ public class Funcionario {
 
     private String cargo;
     private int performanceAnual;
-    private int multiplicador;
 
     public Funcionario(String cargo, int performanceAnual) {
         this.cargo = cargo;
         this.performanceAnual = performanceAnual;
-    }
-
-    public int getPerformanceAnual() {
-        return performanceAnual;
     }
 
     public int multiplicadorPorCargo(String cargo) throws Exception {
@@ -26,6 +21,10 @@ public class Funcionario {
         else {
             throw new Exception("Cargo inválido.");
         }
+    }
+
+    public int getPerformanceAnual() {
+        return performanceAnual;
     }
 
     public String getCargo() {
