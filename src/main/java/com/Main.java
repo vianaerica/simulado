@@ -11,7 +11,7 @@ public class Main {
         double margemLucroAnual;
         String cargo;
 
-        System.out.print("\n*** TOTIUORKIS ***");
+        System.out.print("\n          *** TOTIUORKIS ***");
         System.out.print("\n*** Calcule a participação nos lucros ***");
         System.out.print("\n");
         do {
