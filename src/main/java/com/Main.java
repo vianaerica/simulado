@@ -33,10 +33,10 @@ public class Main {
         do {
             System.out.print("\nDigite o cargo do funcionário (Trainee/Analista/Gerente): ");
             cargo = scanner.next();
-            if (cargo.equals(" ") || cargo.equals(null)){
+            if (cargo.equals(" ") || cargo.equals(null) || cargo.equals("")){
                 System.out.print("\nEste campo não pode ser vazio. Por gentileza, preencha novamente.");
             }
-        }while (cargo.equals(" ") || cargo.equals(null));
+        }while (cargo.equals(" ") || cargo.equals(null) || cargo.equals(""));
 
         do {
             System.out.print("\nDigite a performance do funcionário neste ano (de 1 a 5): ");
