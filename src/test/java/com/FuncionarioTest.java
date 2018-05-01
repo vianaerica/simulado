@@ -73,4 +73,15 @@ public class FuncionarioTest {
 
         assertThat(retornoCargo, is("Trainee"));
     }
+
+    @Test
+    public void deveRetornarPerformanceAnual(){
+        String cargo = "Trainee";
+        int performanceAnual = 3;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        int retornoPerformance = funcionario.getPerformanceAnual();
+
+        assertThat(retornoPerformance, is(3));
+    }
 }
