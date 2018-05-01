@@ -15,7 +15,7 @@ public class TotiuorkisTest {
 
         Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
 
-        totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual, null);
+        totiuorkis.calculaParticipacaoLucros(null);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class TotiuorkisTest {
 
         Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
 
-        participacaoLucro = totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual, funcionario);
+        participacaoLucro = totiuorkis.calculaParticipacaoLucros(funcionario);
 
         assertThat(participacaoLucro, is(8020.0));
     }

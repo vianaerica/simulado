@@ -48,7 +48,7 @@ public class Main {
         Totiuorkis totiuorkis = new Totiuorkis(numeroFuncionarios, margemLucroAnual);
         Funcionario funcionario = new Funcionario(cargo, performanceFuncionario);
 
-        double participacaoLucros = totiuorkis.calculaParticipacaoLucros(numeroFuncionarios, margemLucroAnual, funcionario);
+        double participacaoLucros = totiuorkis.calculaParticipacaoLucros(funcionario);
         System.out.print("\nO valor da participação nos lucros deste funcionário será: R$" + participacaoLucros);
     }
 }

@@ -10,14 +10,14 @@ public class Totiuorkis {
         this.margemLucroAnual = margemLucroAnual;
     }
 
-    public double calculaParticipacaoLucros(int numeroFuncionarios, double margemLucroAnual, Funcionario funcionario) throws Exception{
+    public double calculaParticipacaoLucros(Funcionario funcionario) throws Exception{
         double participacaoTotal;
 
-        if(margemLucroAnual < (numeroFuncionarios * 10000.0)){
+        if(this.margemLucroAnual < (this.numeroFuncionarios * 10000.0)){
             throw new Exception("Não haverá participação nos lucros.");
         }
         else{
-            participacaoTotal = (funcionario.getPerformanceAnual() * funcionario.multiplicadorPorCargo(funcionario.getCargo()) * (margemLucroAnual*0.40)/numeroFuncionarios);
+            participacaoTotal = (funcionario.getPerformanceAnual() * funcionario.multiplicadorPorCargo(funcionario.getCargo()) * (this.margemLucroAnual*0.40)/this.numeroFuncionarios);
             return participacaoTotal;
         }
     }
