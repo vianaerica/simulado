@@ -25,7 +25,7 @@ public class FuncionarioTest {
         int multiplicador;
 
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
-        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+        multiplicador = funcionario.multiplicadorPorCargo();
 
         assertThat(multiplicador, is(3));
     }
@@ -37,7 +37,7 @@ public class FuncionarioTest {
         int multiplicador;
 
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
-        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+        multiplicador = funcionario.multiplicadorPorCargo();
 
         assertThat(multiplicador, is(2));
     }
@@ -49,7 +49,7 @@ public class FuncionarioTest {
         int multiplicador;
 
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
-        multiplicador = funcionario.multiplicadorPorCargo(cargo);
+        multiplicador = funcionario.multiplicadorPorCargo();
 
         assertThat(multiplicador, is(1));
     }
@@ -60,6 +60,6 @@ public class FuncionarioTest {
         int performanceAnual = 3;
 
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
-        funcionario.multiplicadorPorCargo(cargo);
+        funcionario.multiplicadorPorCargo();
     }
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee53e8f-2771-4aee-b047-1e3c20f0d800" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" afterPath="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Funcionario.java" afterPath="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,33 +36,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Totiuorkis.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TotiuorkisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding>
-                <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="847">
               <caret line="50" column="73" lean-forward="false" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FuncionarioTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+              <folding>
+                <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -380,12 +380,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Analista.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Gerente.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/GerenteTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
       </list>
     </option>
   </component>
@@ -517,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TotiuorkisTest">
+  <component name="RunManager" selected="JUnit.FuncionarioTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -727,10 +727,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" />
       </list>
     </recent_temporary>
@@ -760,7 +760,7 @@
       <workItem from="1524255892940" duration="7306000" />
       <workItem from="1524422292993" duration="1540000" />
       <workItem from="1524595355125" duration="539000" />
-      <workItem from="1525206539620" duration="3554000" />
+      <workItem from="1525206539620" duration="3820000" />
     </task>
     <servers />
   </component>
@@ -797,7 +797,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19636000" />
+    <option name="totallyTimeSpent" value="19902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -874,10 +874,10 @@
         <state relative-caret-position="476">
           <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -926,10 +926,10 @@
         <state relative-caret-position="544">
           <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -992,40 +992,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/GerenteTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/AnalistaTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Analista.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
-            <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
-            <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
-            <element signature="method#deveRetornarErroCasoSejaInformadoCargoInvalido#0;class#FuncionarioTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="50" column="73" lean-forward="false" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1041,6 +1007,32 @@
         <state relative-caret-position="268">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="50" column="73" lean-forward="false" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding>
+            <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

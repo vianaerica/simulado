@@ -10,12 +10,12 @@ public class Funcionario {
         this.performanceAnual = performanceAnual;
     }
 
-    public int multiplicadorPorCargo(String cargo) throws Exception {
-        if(cargo.equals("Trainee")){
+    public int multiplicadorPorCargo() throws Exception {
+        if(this.cargo.equals("Trainee")){
             return 1;
-        } else if (cargo.equals("Analista")){
+        } else if (this.cargo.equals("Analista")){
             return 2;
-        } else if (cargo.equals("Gerente")){
+        } else if (this.cargo.equals("Gerente")){
             return 3;
         }
         else {
