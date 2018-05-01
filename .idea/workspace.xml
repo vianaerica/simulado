@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee53e8f-2771-4aee-b047-1e3c20f0d800" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,67 +37,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Totiuorkis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FuncionarioTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-              <folding>
-                <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
-                <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
-                <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
-                <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
-                <element signature="method#deveRetornarErroCasoSejaInformadoCargoInvalido#0;class#FuncionarioTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TotiuorkisTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TotiuorkisTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="75" lean-forward="true" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+            <state relative-caret-position="153">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <element signature="method#deveRetornarVerdadeiroQuandoIniciarTotiuorkis#0;class#TotiuorkisTest#0" expanded="false" />
                 <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
                 <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -412,12 +362,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Analista.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Gerente.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/GerenteTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" />
       </list>
     </option>
   </component>
@@ -450,9 +400,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -512,6 +460,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -790,7 +740,9 @@
       <workItem from="1524177526914" duration="47000" />
       <workItem from="1524177612183" duration="6382000" />
       <workItem from="1524255892940" duration="7306000" />
-      <workItem from="1524422292993" duration="1278000" />
+      <workItem from="1524422292993" duration="1540000" />
+      <workItem from="1524595355125" duration="539000" />
+      <workItem from="1525206539620" duration="2347000" />
     </task>
     <servers />
   </component>
@@ -827,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15281000" />
+    <option name="totallyTimeSpent" value="18429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -835,18 +787,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1744713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17900302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -860,6 +811,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2620846" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,6 +832,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarErroCasoSejaInformadoCargoInvalido#0;class#FuncionarioTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
+            <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
+            <element signature="method#deveRetornarErroCasoSejaInformadoCargoInvalido#0;class#FuncionarioTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
+            <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
@@ -891,7 +949,6 @@
         <state relative-caret-position="527">
           <caret line="31" column="75" lean-forward="false" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
           <folding>
-            <element signature="method#deveRetornarVerdadeiroQuandoIniciarTotiuorkis#0;class#TotiuorkisTest#0" expanded="false" />
             <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
             <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
           </folding>
@@ -920,12 +977,32 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/GerenteTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/AnalistaTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Analista.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="125">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
             <element signature="method#deveRetornarOMultiplicadorDoGerente#0;class#FuncionarioTest#0" expanded="false" />
             <element signature="method#deveRetornarOMultiplicadorDoAnalista#0;class#FuncionarioTest#0" expanded="false" />
             <element signature="method#deveRetornarOMultiplicadorDoTrainee#0;class#FuncionarioTest#0" expanded="false" />
@@ -936,42 +1013,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="75" lean-forward="true" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+        <state relative-caret-position="153">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <element signature="method#deveRetornarVerdadeiroQuandoIniciarTotiuorkis#0;class#TotiuorkisTest#0" expanded="false" />
             <element signature="method#deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido#0;class#TotiuorkisTest#0" expanded="false" />
             <element signature="method#deveRetornarParticipacaoLucrosCalculada#0;class#TotiuorkisTest#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
