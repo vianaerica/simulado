@@ -27,7 +27,5 @@ public class Funcionario {
         return performanceAnual;
     }
 
-    public String getCargo() {
-        return cargo;
-    }
+    public String getCargo() { return cargo; }
 }

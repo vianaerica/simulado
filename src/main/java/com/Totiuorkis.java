@@ -16,7 +16,7 @@ public class Totiuorkis {
         if(this.margemLucroAnual < (this.numeroFuncionarios * 10000.0)){
             throw new Exception("Não haverá participação nos lucros.");
         }
-            participacaoTotal = (funcionario.getPerformanceAnual() * funcionario.multiplicadorPorCargo(funcionario.getCargo()) * (this.margemLucroAnual*0.40)/this.numeroFuncionarios);
+            participacaoTotal = (funcionario.getPerformanceAnual() * funcionario.multiplicadorPorCargo() * (this.margemLucroAnual*0.40)/this.numeroFuncionarios);
             return participacaoTotal;
     }
 }

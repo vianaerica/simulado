@@ -62,4 +62,15 @@ public class FuncionarioTest {
         Funcionario funcionario = new Funcionario(cargo, performanceAnual);
         funcionario.multiplicadorPorCargo();
     }
+
+    @Test
+    public void deveRetornarCargoInformado(){
+        String cargo = "Trainee";
+        int performanceAnual = 3;
+
+        Funcionario funcionario = new Funcionario(cargo, performanceAnual);
+        String retornoCargo = funcionario.getCargo();
+
+        assertThat(retornoCargo, is("Trainee"));
+    }
 }

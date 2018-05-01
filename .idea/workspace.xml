@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee53e8f-2771-4aee-b047-1e3c20f0d800" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Funcionario.java" afterPath="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" afterPath="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,6 +38,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Totiuorkis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +61,8 @@
       <file leaf-file-name="FuncionarioTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+            <state relative-caret-position="234">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
               </folding>
@@ -61,8 +73,8 @@
       <file leaf-file-name="Funcionario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -383,8 +395,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/TotiuorkisTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Totiuorkis.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java" />
       </list>
     </option>
@@ -517,7 +529,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FuncionarioTest">
+  <component name="RunManager" selected="JUnit.FuncionarioTest.deveRetornarCargoInformado">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -583,7 +595,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionarioTest.deveRetornarCargoInformado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -595,7 +607,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com" />
       <option name="MAIN_CLASS_NAME" value="com.FuncionarioTest" />
-      <option name="METHOD_NAME" value="deveRetornarErroCasoSejaInformadoCargoInvalido" />
+      <option name="METHOD_NAME" value="deveRetornarCargoInformado" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -720,18 +732,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarCargoInformado" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FuncionarioTest.deveRetornarCargoInformado" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FuncionarioTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TotiuorkisTest.deveRetornarErroSeMargemLucroMenorQueValorMinimoDefinido" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -760,16 +772,16 @@
       <workItem from="1524255892940" duration="7306000" />
       <workItem from="1524422292993" duration="1540000" />
       <workItem from="1524595355125" duration="539000" />
-      <workItem from="1525206539620" duration="3820000" />
+      <workItem from="1525206539620" duration="4292000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FuncionarioTest_deveRetornarErroCasoSejaInformadoCargoIncorreto - 2018.04.19 at 21h 31m 18s.xml">
-      <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoIncorreto" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest - 2018.05.01 at 19h 50m 34s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FuncionarioTest_deveRetornarErroCasoSejaInformadoCargoInvalido - 2018.04.19 at 21h 33m 37s.xml">
-      <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" configurationId="JUnit" />
+    <history-entry file="FuncionarioTest_deveRetornarCargoInformado - 2018.05.01 at 19h 56m 40s.xml">
+      <configuration name="FuncionarioTest.deveRetornarCargoInformado" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FuncionarioTest_deveRetornarErroCasoSejaInformadoCargoInvalido - 2018.04.19 at 21h 35m 31s.xml">
       <configuration name="FuncionarioTest.deveRetornarErroCasoSejaInformadoCargoInvalido" configurationId="JUnit" />
@@ -797,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19902000" />
+    <option name="totallyTimeSpent" value="20374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -877,7 +889,7 @@
             <element signature="e#647#648#0" expanded="false" />
             <element signature="e#686#687#0" expanded="false" />
             <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,7 +941,7 @@
             <element signature="e#647#648#0" expanded="false" />
             <element signature="e#686#687#0" expanded="false" />
             <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1002,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
@@ -1020,16 +1024,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Totiuorkis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="103" lean-forward="false" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/FuncionarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="62" column="42" lean-forward="false" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        <state relative-caret-position="234">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="method#deveRetornarVerdadeiroQuandoIniciarFuncionario#0;class#FuncionarioTest#0" expanded="false" />
           </folding>
